@@ -1,1 +1,7 @@
-# machine_learning_achieve
+## 机器学习算法实现
+
+### K-近邻算法
+
+-python实现k近邻算法对鸢尾花数据集进行建模预测
+-sklearn提供的k近邻算法相关的包对鸢尾花数据集进行建模和预测
+-kd树的构建
