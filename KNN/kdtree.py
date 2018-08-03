@@ -162,8 +162,8 @@ def data_split():
 
     """
     data_split函数的主要作用是将原始数据分为训练数据和测试数据，其中训练数据和测试数据的比例为2：1
+    :return: 
     """
-
     x_data,y_data = load_data()
     x_training = []
     x_test= []
