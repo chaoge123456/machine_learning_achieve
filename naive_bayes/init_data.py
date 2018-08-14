@@ -33,5 +33,3 @@ def load_data():
     y_data = np.array(y)
     return (x_data,y_data)
 
-
-
