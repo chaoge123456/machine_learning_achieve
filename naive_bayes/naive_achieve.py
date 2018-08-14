@@ -90,8 +90,8 @@ def calculate_max(x_train,y_train,x,la):
     return statictis[index_max][0]
 
 if __name__ == "__main__":
-    #x_train, x_test, y_train, y_test = data_split()
-    x_train, x_test, y_train, y_test = get_data("./mailfilter/train-mails","./mailfilter/test-mails")
+    x_train, x_test, y_train, y_test = data_split() #鸢尾花数据集分类测试
+    #x_train, x_test, y_train, y_test = get_data("./mailfilter/train-mails","./mailfilter/test-mails") #邮件过滤数据集测试
     predict = []
     num = 0
     la = 1.0
