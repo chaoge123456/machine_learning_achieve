@@ -261,6 +261,7 @@ if __name__ == "__main__":
     dis_or_con = [1, 1, 1, 1]
     feature_list = ['age', 'work', 'home', 'money']
     mytree = create_tree(x_training, y_training, dis_or_con, feature_list)
+    #print("生成的决策树为:",mytree)
     for item in range(len(x_test)):
         p = predict(mytree, x_test[item], dis_or_con, feature_list)
         if p == y_test[item]:

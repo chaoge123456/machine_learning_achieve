@@ -18,10 +18,6 @@ class Network(object):
         for w,b in zip(self.weights,self.biases):
             a = sigmoid(np.dot(w,a)+b)
         return a
-        for b, w in zip(self.biases, self.weights):
-            # 加权求和以及加上 biase
-            a = sigmoid(np.dot(w, a) + b)
-        return a
 
     '''
     def __init__(self, sizes):
